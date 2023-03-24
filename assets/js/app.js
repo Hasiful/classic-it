@@ -1,5 +1,5 @@
-var header = document.getElementsByClassName("header_nav")[0];
-var sticky = header.offsetTop;
+var header = document.getElementsByClassName("header_section")[0];
+var sticky = header.offsetTop + 150;
 
 
 window.addEventListener('scroll', function () {
